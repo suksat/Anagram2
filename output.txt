@@ -1,0 +1,29 @@
+[15] givenWord.length() : 8 ---> checkAnagramWord.length(): 8
+[23] checkAnagramWord: sramukus ---> i: 0 ---> charInWordAtIndex_i: givenWord.charAt(i): s ---> indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 0
+[27] indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 0 ---> checkAnagramWord.substring(0, indexOfCharInAnagramForCharInWord):  ---> checkAnagramWord.substring(indexOfCharInAnagramForCharInWord + 1, checkAnagramWord.length()): ramukus
+[29] givenWord.length() : 8 ---> checkAnagramWord.length(): 7
+[23] checkAnagramWord: ramukus ---> i: 1 ---> charInWordAtIndex_i: givenWord.charAt(i): u ---> indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 3
+[27] indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 3 ---> checkAnagramWord.substring(0, indexOfCharInAnagramForCharInWord): ram ---> checkAnagramWord.substring(indexOfCharInAnagramForCharInWord + 1, checkAnagramWord.length()): kus
+[29] givenWord.length() : 8 ---> checkAnagramWord.length(): 6
+[23] checkAnagramWord: ramkus ---> i: 2 ---> charInWordAtIndex_i: givenWord.charAt(i): k ---> indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 3
+[27] indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 3 ---> checkAnagramWord.substring(0, indexOfCharInAnagramForCharInWord): ram ---> checkAnagramWord.substring(indexOfCharInAnagramForCharInWord + 1, checkAnagramWord.length()): us
+[29] givenWord.length() : 8 ---> checkAnagramWord.length(): 5
+[23] checkAnagramWord: ramus ---> i: 3 ---> charInWordAtIndex_i: givenWord.charAt(i): u ---> indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 3
+[27] indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 3 ---> checkAnagramWord.substring(0, indexOfCharInAnagramForCharInWord): ram ---> checkAnagramWord.substring(indexOfCharInAnagramForCharInWord + 1, checkAnagramWord.length()): s
+[29] givenWord.length() : 8 ---> checkAnagramWord.length(): 4
+[23] checkAnagramWord: rams ---> i: 4 ---> charInWordAtIndex_i: givenWord.charAt(i): m ---> indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 2
+[27] indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 2 ---> checkAnagramWord.substring(0, indexOfCharInAnagramForCharInWord): ra ---> checkAnagramWord.substring(indexOfCharInAnagramForCharInWord + 1, checkAnagramWord.length()): s
+[29] givenWord.length() : 8 ---> checkAnagramWord.length(): 3
+[23] checkAnagramWord: ras ---> i: 5 ---> charInWordAtIndex_i: givenWord.charAt(i): a ---> indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 1
+[27] indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 1 ---> checkAnagramWord.substring(0, indexOfCharInAnagramForCharInWord): r ---> checkAnagramWord.substring(indexOfCharInAnagramForCharInWord + 1, checkAnagramWord.length()): s
+[29] givenWord.length() : 8 ---> checkAnagramWord.length(): 2
+[23] checkAnagramWord: rs ---> i: 6 ---> charInWordAtIndex_i: givenWord.charAt(i): r ---> indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 0
+[27] indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 0 ---> checkAnagramWord.substring(0, indexOfCharInAnagramForCharInWord):  ---> checkAnagramWord.substring(indexOfCharInAnagramForCharInWord + 1, checkAnagramWord.length()): s
+[29] givenWord.length() : 8 ---> checkAnagramWord.length(): 1
+[23] checkAnagramWord: s ---> i: 7 ---> charInWordAtIndex_i: givenWord.charAt(i): s ---> indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 0
+[27] indexOfCharInAnagramForCharInWord: checkAnagramWord.indexOf(charInWordAtIndex_i): 0 ---> checkAnagramWord.substring(0, indexOfCharInAnagramForCharInWord):  ---> checkAnagramWord.substring(indexOfCharInAnagramForCharInWord + 1, checkAnagramWord.length()):
+[29] givenWord.length() : 8 ---> checkAnagramWord.length(): 0
+[36] return checkAnagramWord.isEmpty(): true
+given are anagrams :true
+
+Process finished with exit code 0
